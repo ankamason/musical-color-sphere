@@ -6,3 +6,9 @@ journal/                # Your private thoughts stay local
 personal_notes.txt      # Personal reflections stay private
 *.wav                   # Audio files stay local
 *.mp3                   # Music files stay local
+# File patterns (NOT actual content)
+diary.txt           # Ignores any file named diary.txt
+journal/            # Ignores entire journal folder
+*.private           # Ignores all files ending in .private
+secrets/            # Ignores entire secrets folder
+notes_*.txt         # Ignores notes_monday.txt, notes_tuesday.txt, etc
